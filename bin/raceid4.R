@@ -154,5 +154,4 @@ plotexpmap(sc,"Mog",logsc=F,fr=T)
 
 
 #identify myeloid cells
-#write.csv(data.frame(names(sc@cpart[sc@cpart %in% c(7)])), 'data/non-microglia-cell-ids.csv')
 write.csv(data.frame(names(sc@cpart[sc@cpart %in% c(6,10)])), 'data/more-more-more-non-microglia-cell-ids.csv')
